@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_advancements",
+  "version": "${version}",
+  "name": "Custom Advancements",
+  "description": "A server-side mod that allows you to customize any advancements look in chat, and what commands will be executed when the advancement is granted.",
+  "authors": [
+    "Cloud"
+  ],
+  "contact": {
+    "homepage": "https://legacy.curseforge.com/minecraft/mc-mods/advancement-tweaker/",
+    "sources": ""
+  },
+  "license": "Insert License Here",
+  "icon": "assets/custom_advancements/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cloud.custom_advancements.fabric.CustomAdvancementsFabric"
+    ]
+  },
+  "mixins": [
+    "custom_advancements.mixins.json",
+    "custom_advancements-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}

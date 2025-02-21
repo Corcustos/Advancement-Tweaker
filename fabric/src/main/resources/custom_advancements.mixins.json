@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.cloud.custom_advancements.server",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+  ],
+  "client": [
+
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

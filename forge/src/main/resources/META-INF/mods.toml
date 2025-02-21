@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+
+logoFile = "icon.png"
+modId = "custom_advancements"
+version = "${version}"
+displayURL = "https://legacy.curseforge.com/minecraft/mc-mods/advancement-tweaker/"
+displayName = "Custom Advancements"
+authors = "Cloud"
+description = '''
+A server-side mod that allows you to customize any advancements look in chat, and what commands will be executed when the advancement is granted.
+'''
+
+[[dependencies.custom_advancements]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.custom_advancements]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
